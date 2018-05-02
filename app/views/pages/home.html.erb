@@ -1,2 +1,10 @@
 <h1>Pages#home</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
+
+<% @projects.each do |project| %>
+  <% if project.visibility %>
+    <%= project.name %>
+    <%= project.description %>
+    <%= cl_image_tag project.photo, height: 300, width: 400, crop: :fill %>
+  <% end %>
+<% end %>
