@@ -1,0 +1,12 @@
+{
+  "name": "creative-concept",
+  "private": true,
+  "dependencies": {
+    "@rails/webpacker": "^3.5.2",
+    "bootstrap": "3",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.1.3"
+  }
+}
